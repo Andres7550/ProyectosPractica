@@ -6,6 +6,8 @@ body {
     background-color: gray;
 }
 
+/*header*/
+
 nav {
     background-color: black;
     color: white;
@@ -45,4 +47,37 @@ nav .desktop .secundary {
 
 nav .desktop .secundary.mini {
     display: none;
+}
+
+/*Main*/
+
+.h1title {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    font: bold;
+    color: white;
+}
+
+.h3title {
+    text-align: center;
+    margin-left: -35px; 
+    padding: 0;
+    color: white;
+    font: bold;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(112, 104, 104);
+    color: wheat;
+    font: bold;
+}
+
+.main-list{
+    list-style: none;
 }
