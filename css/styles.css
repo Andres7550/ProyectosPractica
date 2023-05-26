@@ -145,3 +145,42 @@ li a:hover{
 
 
 /*Body proyecto 3*/
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 100px auto;
+
+}
+
+caption{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+td, th{
+    border: solid 1px whitesmoke ;
+    padding: 5px;
+
+}
+
+tr:nth-child(even){
+    background-color: rgba(230, 193, 193, 0.5);
+}
+
+td:nth-child(n+3),th:nth-child(n+3){
+    text-align: center; 
+}
+
+tbody tr:hover{
+    background-color: rgb(160, 222, 225) !important;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
