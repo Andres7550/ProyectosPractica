@@ -48,6 +48,7 @@ nav .desktop .secundary.mini {
     display: none;
 }
 
+
 /*Body del index*/
 .h1title {
     text-align: center;
@@ -186,7 +187,7 @@ thead{
 }
 
 
-/*Body proyecto 4*/
+/*Body proyecto 4 */
 
 .material-symbols-outlined {
     font-size: 21px;
@@ -300,3 +301,25 @@ thead{
         transform: rotate(0);
     }
 }
+
+
+/*body proyecto 5 */
+
+.main-p5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.form-container{
+
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
